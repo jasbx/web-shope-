@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+    .all {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .box img {
+        width: 150px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .box {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+.img1 img{
+   height: 200px; 
+
+
+}
+    .center {
+        left: 0;
+        font-size: 10px;
+        color: black;
+    }
+.cont3{
+    background-color:#7fd7eb;
+    position: relative;
+    top: 1500px;
+    height: 500px;
+    width: 400px;
+    display: block;
+}
+.cont3 img{
+  width: 200px;
+ height: 200px;
+ 
+}
+.why{
+
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.contante h3{
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.contante p{
+    font-weight: bolder;
+    font-size: 12px;
+}
+.cont4{
+    position: relative;
+    top: 1600px;
+}
+.cont5{
+position: relative;
+top: 1800px;
+}
+.cont5 img{
+    width: 200px;
+    height: 300px;
+}
+.cont6 img{
+    width: 200px;
+    height: 300px;
+}
+.cont6{
+    position: relative;
+    top: 1900px;   
+}
+.cont7{
+    position: relative;
+    top: 2000px;   
+    display: grid;
+    grid-template-columns: minmax(200px,auto);
+height: fit-content;
+
+}
+.foter{
+    display: block;
+
+}
+
+}
