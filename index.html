@@ -41,7 +41,7 @@
         <nav class="navbar">
             <ul class="navbar">
                 
-                <li class="nav-item active"><a class="nav-link text-dark" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#home">Home</a></li>
                 <li class="nav-item"><a class="nav-link text-dark" href="#shope">Shope</a></li>
                 <li class="nav-item"><a class="nav-link text-dark" href="#why">Why us</a></li>
                 <li class="nav-item"><a class="nav-link text-dark" href="#tes">
@@ -316,18 +316,17 @@ Gift Shop
 </div>
 </body>
 <script src="main.js"></script>
+<script src="jquery.main.js"></script>
+
+
+<script>
+
+    $(document).ready(function(){
+$('.navbar li a').click(function(){
+    $('.navbar a').removeClass('active')
+    $(this).addClass('active')
+    
+})
+    })
+</script>
 </html>
-<!-- <div class="col all2">
-    <div class="col box">
-        <img src="img/p5.png" alt="">
-    </div>
-    <div class="col box">
-        <img src="img/p6.png" alt="">
-    </div>
-    <div class="col box">
-        <img src="img/p7.png" alt="">
-    </div>
-    <div class="col box">
-        <img src="img/p8.png" alt="">
-    </div>
-   </div> -->
